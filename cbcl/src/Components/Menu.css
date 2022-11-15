@@ -1,0 +1,26 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+}
+
+nav .logo{
+    width: 280px;
+}
+
+.welcome{
+    color: aliceblue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20vh;
+        display: block;
+    transition-duration: 1ms;
+
+}	
+
+
+
+
+
+    /* BOTONES MENU*/
+
+    
