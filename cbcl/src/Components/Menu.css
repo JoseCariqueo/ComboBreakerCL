@@ -7,20 +7,55 @@ nav .logo{
     width: 280px;
 }
 
-.welcome{
+h1{
     color: aliceblue;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20vh;
+    font-size: 30vh;
         display: block;
     transition-duration: 1ms;
+    z-index: 0;
+    margin-top: 60px;
+
 
 }	
 
+.back-video {
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.back-video:before{
+    content: '';
+    position: fixed;
+    background-color:  rgba(255, 0, 255, 0.8);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
 
 
 
-
-    /* BOTONES MENU*/
-
-    
+ 
+@media (max-width: 600px) {
+    h1 {
+        font-size: 5rem;
+        margin-top: 200px;
+    }
+    .back-video {
+        margin-top: 50px;
+    }
+    #cabezera {
+        text-align: center;
+        margin-bottom: 5px;
+    }	
+}

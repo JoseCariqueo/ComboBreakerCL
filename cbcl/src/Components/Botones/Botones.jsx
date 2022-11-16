@@ -1,20 +1,17 @@
 import React from 'react'
 import './Botones.css'
+import Button from '@mui/material/Button';
 
 const Botones = () => {
   return (
     
       <div id='menu'>
+        
                <ul>
-              <span>
-              <a href='#' className='botones'>Home</a>
-              </span>
-              <span>
-              <a href='#' className='botones'>Home</a>
-              </span>
-              <span>
-              <a href='#' className='botones'>Home</a>
-              </span>
+               <Button className='botones'>Inicio</Button>
+               <Button className='botones'>Noticias</Button>
+               <Button className='botones'>Contacto</Button>
+              
               </ul>
           </div>
     

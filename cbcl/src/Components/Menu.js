@@ -2,26 +2,33 @@ import React from 'react'
 import "../Components/Menu.css"
 import Logo from '../Components/images/CB.png'
 import Botones from './Botones/Botones'
+import video from '../Components/images/backg2.mp4'
+
+
+
 
 
 
 
 const Menu = () => {
   return (
-    <div>
+    <div >
     
 
         <nav id='cabezera'>
-            <img src={Logo} className="logo"/>
+            <img src={Logo} className="logo"/> 
         </nav>
-
         <Botones/>
-      <div id='cuerpo'>
-    <h1 className='welcome'>Welcome!</h1>
-    <a href="5"> Explore </a>
-
-</div>
-</div>
+      
+       
+        <h1 >Welcome!</h1>
+        
+        <video autoPlay loop muted playsInline className='back-video'>
+          <source src={video} type='video/mp4'/>
+        </video>
+        
+ 
+        </div>
 
   )
 }

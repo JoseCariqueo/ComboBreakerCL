@@ -7,6 +7,7 @@ span {
     font-size: 16px;
     display: inline-block;
     cursor: pointer;
+    margin-top: -20px;
 }
 #menu {
     background-color: black;
@@ -24,10 +25,10 @@ span {
 }
 
 .botones {
-    width: 220px;
-    height: 43px;
+    width: 260px;
+    height: 35px;
     color: #fff;
-    
+    font-size: 70px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -59,3 +60,13 @@ span {
     height: 100%;
     background-color: red
   }
+
+  @media (max-width: 600px) {
+    .botones {
+      width: 100px;
+      display: inline;
+      margin-right: 4px;
+      right: 14px;
+    }
+    
+}
