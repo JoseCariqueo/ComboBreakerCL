@@ -43,7 +43,7 @@ span {
     color: #d90429;
     
   }
-  .botones:hover {
+  /* .botones:hover {
     color: #fff;
   }
   .botones:hover:after {
@@ -59,14 +59,53 @@ span {
     width: 0;
     height: 100%;
     background-color: red
-  }
+  } */
+.lilaButton {
+  margin: 0px 6px;
+    border-radius: .25rem;
+      text-transform: uppercase;
+        font-style: normal;
+          font-weight: 400;
+            padding-left: 25px;
+              padding-right: 25px;
+                color: #fff;
+                  -webkit-clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+                    clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+                      height: 40px;
+                        font-size: 0.7rem;
+                          line-height: 14px;
+                            letter-spacing: 1.2px;
+                              transition: .2s .1s;
+background-image: linear-gradient(90deg,#1c1c1c,#6220fb);
+  border: 0 solid;
+    overflow: hidden;
+    }
+
+    .lilaButton:hover {
+      cursor: pointer;
+        transition: all .3s ease-in;
+          padding-right: 30px;
+            padding-left: 30px;
+            }
 
   @media (max-width: 600px) {
-    .botones {
+    /* .botones {
       width: 100%;
       display: inline;
       margin-right: 4px;
       right: 14px;
-    }
-    
+    } */
+ul .lilaButton {
+  margin: 5px 5px;
+  flex-direction: row;
+  justify-content: center;
+  align-content: flex-start;
+  width: 50%;
 }
+#menu {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+  }
