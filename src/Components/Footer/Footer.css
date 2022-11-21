@@ -1,0 +1,46 @@
+footer {
+    background-image: url(../images/fondito.jpg);
+    background-size: cover;
+    padding: 0.5rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 0rem;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+footer p{
+    font-size: 20px;
+}
+.footer__logo {
+    font-size: 2rem;
+    font-weight: 100px;
+    margin-top: 1rem;
+    display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.footer__copyright{
+
+    color: white;
+}
+
+.social-container{width:400px;margin:2vh auto;text-align:center}
+.social-icons{padding:0;list-style:none;margin:em}
+.social-icons li{display:inline-block;margin:.15em;position:relative;font-size:1.2em}
+.social-icons i{color:rgb(255, 255, 255);position:absolute;top:21px;left:21px;transition:all 265ms ease-out}
+.social-icons a{display:inline-block}
+.social-icons a:before{transform:scale(1);-ms-transform:scale(1);-webkit-transform:scale(1);content:" ";width:60px;height:60px;border-radius:100%;display:block;background:linear-gradient(45deg,#290294,#7950da);transition:all 265ms ease-out}
+.social-icons a:hover:before{transform:scale(0);transition:all 265ms ease-in}
+.social-icons a:hover i{transform:scale(2.2);-ms-transform:scale(2.2);-webkit-transform:scale(2.2);color:#c50808;background:-webkit-linear-gradient(45deg,#f50000,#002A8F);-webkit-background-clip:text;-webkit-text-fill-color:transparent;transition:all 265ms ease-in}
+/*=============== MEDIA QUERIES (SMALL DEVICES)   =====================*/
+@media screen and (max-width: 600px) {
+    .permalinks{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    }
+    .footer__socials {
+        margin-bottom: 2.5rem;
+    }
