@@ -59,3 +59,10 @@ h1{
         margin-bottom: 5px;
     }	
 }
+
+@media screen and (min-width: 2430px) {
+    h1 {
+        font-size: 30rem;
+        margin-top: 200px;
+    } 
+}
