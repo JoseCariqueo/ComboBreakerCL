@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.852104f6.css",
+    "main.js": "/static/js/main.89a8c927.js",
+    "static/media/backg2.mp4": "/static/media/backg2.d1730801e708d9f54184.mp4",
+    "static/media/fondito.png": "/static/media/fondito.d705e2e35ab55bb648d1.png",
+    "static/media/CB.png": "/static/media/CB.2a64c49f482aeb1771e2.png",
+    "index.html": "/index.html",
+    "main.852104f6.css.map": "/static/css/main.852104f6.css.map",
+    "main.89a8c927.js.map": "/static/js/main.89a8c927.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.852104f6.css",
+    "static/js/main.89a8c927.js"
+  ]
+}
