@@ -9,15 +9,15 @@ import {FaDiscord} from 'react-icons/fa'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">Comunidad Chilena de Fighting Games</a>
+      <a href="www.combobreaker.cl" className="footer__logo">Comunidad Chilena de Fighting Games</a>
  
 
       <div class="social-container">
  <ul class="social-icons">
  <li><a href="https://www.twitch.tv/combobreakercl" target="_blank" rel="noreferrer"><i   ><ImTwitch/></i></a></li>
  <li><a href="https://www.facebook.com/ComboBreakerCL" target="_blank" rel="noreferrer"><i><FiFacebook/></i></a></li>
- <li><a href="#"target="_blank" rel="noreferrer"><i ><GrInstagram/></i></a></li>
- <li><a href="#"target="_blank" rel="noreferrer"><i ><FaDiscord/></i></a></li>
+ <li><a href="www.combobreaker.cl"target="_blank" rel="noreferrer"><i ><GrInstagram/></i></a></li>
+ <li><a href="www.combobreaker.cl"target="_blank" rel="noreferrer"><i ><FaDiscord/></i></a></li>
  </ul>
       <div className="footer__copyright">
         <p>&copy; José Cariqueo</p>
