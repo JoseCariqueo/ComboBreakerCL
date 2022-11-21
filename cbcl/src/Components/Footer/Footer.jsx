@@ -17,7 +17,7 @@ const Footer = () => {
  <li><a href="https://www.twitch.tv/combobreakercl" target="_blank"><i   ><ImTwitch/></i></a></li>
  <li><a href="https://www.facebook.com/ComboBreakerCL" target="_blank" ><i><FiFacebook/></i></a></li>
  <li><a href="#"target="_blank"><i ><GrInstagram/></i></a></li>
- <li><a href="#"target="_blank"><i ><FaDiscord/></i></a></li>
+ <li><a href="https://discord.gg/9NQAGsuD" target="_blank"><i ><FaDiscord/></i></a></li>
  </ul>
       <div className="footer__copyright">
         <p>&copy; José Cariqueo</p>

@@ -63,7 +63,7 @@ span {
 
   @media (max-width: 600px) {
     .botones {
-      width: 100px;
+      width: 100%;
       display: inline;
       margin-right: 4px;
       right: 14px;

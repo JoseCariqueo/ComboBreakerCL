@@ -49,13 +49,21 @@ h1{
 @media (max-width: 600px) {
     h1 {
         font-size: 5rem;
-        margin-top: 200px;
+        margin-top: 140px;
     }
     .back-video {
         margin-top: 50px;
+        
+      
     }
     #cabezera {
         text-align: center;
         margin-bottom: 5px;
     }	
 }
+
+@media (min-width: 2560px) {
+    h1 {
+        font-size: 20rem;
+        margin-top: 300px;}
+    }

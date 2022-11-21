@@ -9,7 +9,7 @@ const Botones = () => {
         
                <ul>
                <Button className='botones'>Inicio</Button>
-               <Button className='botones'>Noticias</Button>
+               <Button className='botones'>Comunidades</Button>
                <Button className='botones'>Contacto</Button>
               
               </ul>
