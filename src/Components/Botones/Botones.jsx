@@ -7,7 +7,7 @@ const Botones = () => {
     
       <div id='menu'>
         
-               <ul>
+               <ul className='menuBottons'>
                <Button className='hoverMe'>Inicio</Button>
                <Button className='hoverMe'>Comunidad</Button>
                <Button className='hoverMe'>Contacto</Button>

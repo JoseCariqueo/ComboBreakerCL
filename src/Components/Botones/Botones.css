@@ -10,17 +10,20 @@ span {
     
 }
 #menu {
-    background-color: black;
+    
     justify-content:center ;
     text-align: center;
-    display: inline;
+    display: flex;
+    margin: 5rem;
+    flex-direction: row;
+    margin-top: -3rem;
     
 
 }
 
 
 #menu ul a{
-    font-size: 35px;
+    font-size: 15px;
     text-decoration: none;
     
     
@@ -67,7 +70,7 @@ span {
   width: 15rem;
   height: 3rem;
    padding: 0.8em 1.8em;
-    border: 2px solid #ffffff;
+    
      position: relative;
       overflow: hidden;
        background-color: transparent;
@@ -105,11 +108,23 @@ span {
 
 
   @media (max-width: 600px) {
-    .botones {
-      width: 100px;
-      display: inline;
-      margin-right: 4px;
-      right: 14px;
-    }
+   .MuiButtonBase-root {
+    position: left;
+    position: fixed;
+   display: flex;
+   margin-left: 0px;
+    
+   width: 100%;
+    
+   }
+   #menu {
+    
+    justify-content:center ;
+    text-align: center;
+    display: flex;
+    margin: 3rem;
+    margin-right: 6rem;
+    
+   }
     
 }
