@@ -120,10 +120,8 @@ span {
    #menu {
     
     justify-content:center ;
-    text-align: center;
-    display: flex;
-    margin: 3rem;
-    margin-right: 6rem;
+    margin-top: 4rem;
+    margin-left: 2rem;
     
    }
     
