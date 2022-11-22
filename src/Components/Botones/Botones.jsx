@@ -8,11 +8,11 @@ const Botones = () => {
       <div id='menu'>
         
                <ul>
-               <Button className='botones'>Inicio</Button>
-               <Button className='botones'>Comunidad</Button>
-               <Button className='botones'>Contacto</Button>
-              
-              </ul>
+               <Button className='hoverMe'>Inicio</Button>
+               <Button className='hoverMe'>Comunidad</Button>
+               <Button className='hoverMe'>Contacto</Button>
+               
+             </ul>
           </div>
     
   )

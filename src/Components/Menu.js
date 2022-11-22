@@ -16,7 +16,7 @@ const Menu = () => {
     
 
         <nav id='cabezera'>
-            <img src={Logo} className="logo"/> 
+            <img src={Logo} className="logo" alt='logoCB'/> 
         </nav>
         <Botones/>
       
